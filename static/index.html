@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de Defectos de Soldadura</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Detector de Defectos de Soldadura</h1>
+            <p>Utiliza la cámara o sube una imagen para detectar defectos en soldaduras</p>
+        </header>
+
+        <div class="main-content">
+            <div class="controls">
+                <div class="button-group">
+                    <button id="uploadBtn" class="btn primary">Subir Imagen</button>
+                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                    <button id="cameraBtn" class="btn secondary">Activar Cámara</button>
+                </div>
+                <div class="status">
+                    <p id="statusText">Listo para detectar</p>
+                    <div id="loadingIndicator" class="loading" style="display: none;"></div>
+                </div>
+            </div>
+
+            <div class="display-area">
+                <div class="image-container">
+                    <div id="imagePlaceholder" class="placeholder">
+                        <p>Sube una imagen o activa la cámara para comenzar</p>
+                    </div>
+                    <img id="resultImage" style="display: none;">
+                    <video id="cameraFeed" style="display: none;" autoplay playsinline></video>
+                </div>
+                
+                <div class="results-panel">
+                    <h3>Resultados</h3>
+                    <div id="resultsContainer">
+                        <p class="no-results">No hay resultados aún</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Desarrollado con YOLOv8 | <span id="modelInfo">Cargando información del modelo...</span></p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html> 
