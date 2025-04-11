@@ -19,7 +19,7 @@ Este proyecto implementa un sistema de detección de defectos en soldaduras util
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/checho1510/ocr-soldaduras
+git clone https://github.com/sergiovogt/computer-vision-welding
 cd ocr-soldaduras
 ```
 
