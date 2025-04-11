@@ -1,6 +1,6 @@
 # Detector de Defectos de Soldadura
 
-Este proyecto implementa un sistema de detección de defectos en soldaduras utilizando YOLOv8. Permite realizar inferencias tanto con imágenes estáticas como en tiempo real usando la cámara web.
+Este proyecto implementa un sistema de detección de defectos en soldaduras utilizando YOLOv9. Permite realizar inferencias tanto con imágenes estáticas como en tiempo real usando la cámara web.
 
 ## Requisitos Previos
 
@@ -56,7 +56,7 @@ working/
 ```
 
 ### Especificaciones del Modelo
-- Arquitectura: YOLOv8
+- Arquitectura: YOLOv9
 - Tamaño del modelo: [Especificar tamaño]
 - Precisión: [Especificar precisión]
 - Clases detectadas: [Especificar clases]
@@ -178,7 +178,7 @@ Si deseas contribuir al proyecto:
 
 MIT License
 
-Copyright (c) 2024
+Copyright (c) 2025
 
 Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y archivos de documentación asociados (el "Software"), para utilizar el Software sin restricciones, incluyendo, sin limitación, los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar y/o vender copias del Software, y permitir a las personas a quienes se les proporcione el Software hacer lo mismo, sujeto a las siguientes condiciones:
 
